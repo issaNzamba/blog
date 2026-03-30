@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevOps &amp; Cloud — Issa Nzamba</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on DevOps &amp; Cloud — Issa Nzamba</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 30 Mar 2026 02:56:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Mon, 30 Mar 2026 02:56:24 +0000</pubDate>
+      <guid>http://localhost:1313/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Déployer une infra AWS production-ready avec Terraform</title>
+      <link>http://localhost:1313/posts/terraform-aws-guide/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terraform-aws-guide/</guid>
+      <description>VPC, EC2, Security Groups et EIP en IaC pur. Zéro clic dans la console.</description>
+    </item>
+    <item>
+      <title>A propos</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>DevOps Engineer — Cloud, IaC, Security, Automation</description>
+    </item>
+  </channel>
+</rss>
