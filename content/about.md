@@ -1,37 +1,27 @@
 ---
-title: "A propos"
+title: "À propos"
 layout: "about"
-url: "/about/"
-summary: "DevOps Engineer — Cloud, IaC, Security, Automation"
+summary: "Présentation, parcours et contact"
 ---
 
-## Qui suis-je ?
+## Bonjour, je suis Issa Nzamba 👋
 
-**DevOps Engineer** passionné par l'automatisation, la sécurité des systèmes et l'infrastructure cloud. Je conçois et maintiens des architectures résilientes avec une obsession pour l'**Infrastructure as Code**.
+Ingénieur Logiciel passionné par la conception de systèmes performants, l'architecture logicielle, la qualité du code et le développement d'applications modernes.
 
-## Stack technique
+### 🛠️ Domaines d'intérêt
+* Conception & Architecture applicative
+* Développement Full-Stack / Backend / Frontend
+* API REST & Microservices
+* Bonnes pratiques de développement (Clean Code, TDD, Design Patterns)
 
-| Domaine | Technologies |
-|---|---|
-| Cloud | AWS (EC2, VPC, IAM, S3, CloudWatch) |
-| IaC | Terraform · Ansible · CloudFormation |
-| Conteneurs | Docker · Docker Compose · Kubernetes |
-| CI/CD | GitHub Actions · Jenkins · GitLab CI |
-| Monitoring | Prometheus · Grafana · CloudWatch |
-| Scripting | Python · Bash · YAML |
-| Réseau & Sécu | Nginx · Fail2ban · UFW · VPN · PKI |
+---
 
-## Pourquoi ce blog ?
+### 📬 Me contacter
+* **Email :** [nzambaissa68@protonmail.com](mailto:nzambaissa68@protonmail.com)
+* **LinkedIn :** [Mon Profil LinkedIn](https://www.linkedin.com/in/issa-nzamba-399a47291)
+* **GitHub :** [issaNzamba](https://github.com/issaNzamba)
+---
 
-Ce blog est lui-même un projet DevOps :
-- Généré par **Hugo** (statique, ultra-rapide)
-- Versionné sur **GitHub**
-- Déployé automatiquement via **GitHub Actions**
-- Hébergé gratuitement sur **GitHub Pages**
+### 📄 Mon CV
+> Télécharger mon CV au format PDF : **[Télécharger mon CV](/cv.pdf)**
 
-Chaque article publié ici l'a été avec un simple `git push`.
-
-## Contact
-
-- LinkedIn : [issa-nzamba-diawara](https://www.linkedin.com/in/issa-nzamba-diawara-399a47291/)
-- GitHub : [issaNzamba](https://github.com/issaNzamba)
