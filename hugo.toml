@@ -1,67 +1,53 @@
-baseURL = "https://issaNzamba.github.io"
-languageCode = "fr"
-title = "DevOps & Cloud — Issa Nzamba"
-theme = "PaperMod"
+baseURL = 'https://issaNzamba.github.io/'
+languageCode = 'fr-fr'
+defaultContentLanguage = 'fr'  # <-- 1. Active la traduction automatique des mois par Hugo
 
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
+title = 'Ingénieur Logiciel — Issa Nzamba'
+theme = 'PaperMod'
 
-[markup]
-  [markup.highlight]
-    style = "dracula"
-    lineNos = true
-    noClasses = false
-  [markup.goldmark.renderer]
-    unsafe = true
-
-[taxonomies]
-  tag = "tags"
-  series = "series"
-
-paginate = 10
+[pagination]
+  pagerSize = 5
 
 [params]
-  author = "Issa Nzamba"
-  description = "DevOps Engineer · Cloud · IaC · Python Automation"
-  DateFormat = "2 January 2006"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  # 2. Choisir le format de date souhaité :
+
+  # Option A : Format texte complet (ex: 24 juillet 2026)
+  dateFormat = "2 January 2006"
+
+  # Option B : Format numérique français (ex: 24/07/2026)
+  # dateFormat = "02/01/2006"
 
   [params.profileMode]
-    enabled = true
-    title = "DevOps Engineer"
-    subtitle = "Cloud · IaC · Automation · Security"
+    enabled = false
 
-    [[params.profileMode.buttons]]
-      name = "Articles"
-      url = "/posts"
+  [params.homeInfoParams]
+    Title = "Ingénieur Logiciel"
+    Content = "Architecture Software · Développement Web · APIs · Clean Code"
 
-    [[params.profileMode.buttons]]
-      name = "A propos"
-      url = "/about"
+  
+  # Icônes de contact direct et réseaux sociaux
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "www.linkedin.com/in/issa-nzamba-399a47291"
 
-[[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/issa-nzamba-diawara-399a47291/"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/issaNzamba"
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/issaNzamba"
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/@issanzamba"
 
-[[params.socialIcons]]
-  name = "rss"
-  url = "/index.xml"
+  
 
+# Menu de navigation
 [[menu.main]]
   name = "Articles"
   url = "/posts/"
   weight = 10
 
 [[menu.main]]
-  name = "A propos"
+  name = "À propos & CV"
   url = "/about/"
   weight = 20
 
@@ -69,6 +55,3 @@ paginate = 10
   name = "Tags"
   url = "/tags/"
   weight = 30
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
